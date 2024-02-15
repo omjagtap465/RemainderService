@@ -1,4 +1,9 @@
 const dotenv = require('dotenv')
 dotenv.config()
-const PORT = process.env.PORT
-module.exports = {PORT}
+module.exports = {
+    PORT:process.env.PORT,
+    EMAIL_PASS:process.env.EMAIL_PASS,
+    EXCHANGE_NAME:process.env.EXCHANGE_NAME,
+    REMAINDER_BINDING_KEY:process.env.REMAINDER_BINDING_KEY,
+    MESSAGE_BROKER_URL:process.env.MESSAGE_BROKER_URL
+}

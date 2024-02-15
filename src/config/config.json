@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "7400373734",
-    "database": "BOOKING_DB_DEV",
+    "database": "REMAINDER_DB_DEV",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
